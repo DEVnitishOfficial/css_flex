@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Css Responsive Grid</title>
+    </head>
+    <style>
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            overflow: hidden;
+            justify-content: center;
+            gap: 10px;
+            background-size: cover;
+        }
+        img{
+            width: 400px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        img:hover{
+        cursor: pointer;
+        opacity: 0.6;
+        transition: 0.5s;
+        }
+    </style>
+    <body>
+        <div class="container">
+           <img src="./img1.avif" alt=""> 
+           <img src="./img2.avif" alt=""> 
+           <img src="./img3.avif" alt=""> 
+           <img src="./img4.avif" alt=""> 
+           <img src="./img5.avif" alt=""> 
+           <img src="./img6.avif" alt=""> 
+           <img src="./img7.avif" alt=""> 
+           <img src="./img8.avif" alt=""> 
+           <img src="./img9.avif" alt=""> 
+        </div>
+    </body>
+</html>
